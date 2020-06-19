@@ -12,7 +12,7 @@
 /build
 
 #compiled css
-src/assets/main.css
+/src/assets/main.css
 
 # misc
 .DS_Store
