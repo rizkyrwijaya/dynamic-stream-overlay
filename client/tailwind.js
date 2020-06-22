@@ -248,6 +248,9 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      comfortaa: ['Comfortaa'],
+      roboto: ['Roboto'],
+      museo: ['MuseoModerno'],
     },
     fontSize: {
       xs: '0.75rem',
@@ -260,6 +263,9 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl': '5rem',
+      '8xl': '6rem',
+      '9xl': '7rem',
     },
     fontWeight: {
       hairline: '100',

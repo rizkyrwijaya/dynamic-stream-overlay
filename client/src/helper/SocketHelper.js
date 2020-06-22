@@ -7,7 +7,7 @@ function subscribeToCommand(getMessageFunction) {
 }
 
 function sendToCommand(message) {
-  socket.emit("commandRCV",message);
+  socket.emit("command",message);
 }
 
 export { subscribeToCommand, sendToCommand };

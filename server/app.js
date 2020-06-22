@@ -24,7 +24,7 @@ var socketPort = 9001;
 server.listen(socketPort);
 
 io.on('connection', (client) => {
-    client.on("commandRCV", (command) => {
+    client.on('command', (command) => {
       io.emit('overlay', command);
     })
 })

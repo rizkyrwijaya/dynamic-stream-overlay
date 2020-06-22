@@ -9,8 +9,8 @@ export default function SocketSender(props){
 
     return (
         <div className="">
-            <input type="text" ref={inputCommand}/>
-            <button onClick={onButtonClick}>Send</button>
+            <input className="border" type="text" ref={inputCommand}/>
+            <button className="bg-gray-200 hover:bg-gray-300 border" onClick={onButtonClick}>Send</button>
         </div>
     )
 }
